@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Rock Tomb	Rock	Physical	60	95	15	Lowers opponent's Speed.
+//	Lowers opponent's Speed.
 public final class RockTomb extends PhysicalMove{
     public RockTomb() {
         super(Type.ROCK, 60, 0.95);

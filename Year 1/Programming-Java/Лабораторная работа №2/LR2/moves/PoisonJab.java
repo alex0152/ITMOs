@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Poison Jab	Poison	Physical	80	100	20	May poison the opponent.
+//	May poison the opponent.
 public final class PoisonJab extends PhysicalMove{
     public PoisonJab() {
         super(Type.POISON, 80, 1.0);

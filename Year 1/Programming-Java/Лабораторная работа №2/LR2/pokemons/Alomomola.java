@@ -2,7 +2,7 @@ package pokemons;
 
 import ru.ifmo.se.pokemon.*;
 import moves.*;
-// min level 
+ 
 public final class Alomomola extends Pokemon{
     public Alomomola(String name, int level) {
         super(name, level);

@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Psychic	Psychic	Special	90	100	10	May lower opponent's Special Defense.
+//	May lower opponent's Special Defense.
 public final class Psychic extends SpecialMove{
     public Psychic() {
         super(Type.PSYCHIC, 90, 1.0);

@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Flatter	Dark	Status	—	100	15	Confuses opponent, but raises its Special Attack.
+//	Confuses opponent, but raises its Special Attack.
 public final class Flatter extends StatusMove{
     public Flatter() {
         super(Type.DARK, 0, 1.0);

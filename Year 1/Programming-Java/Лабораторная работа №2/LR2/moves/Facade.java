@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Facade	Normal	Physical	70	100	20	Power doubles if user is burned, poisoned, or paralyzed.
+//	Power doubles if user is burned, poisoned, or paralyzed.
 public final class Facade extends PhisycalMove {
     public Facade() {
         super(Type.NORMAL, 70, 1.0);

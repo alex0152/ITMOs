@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Body Slam	Normal	Physical	85	100	15	May paralyze opponent.
+//	May paralyze opponent.
 public final class BodySlam extends PhisycalMove  {
     public BodySlam() {
         super(Type.NORMAL, 85, 1.0);

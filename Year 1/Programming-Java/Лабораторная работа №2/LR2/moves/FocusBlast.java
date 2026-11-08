@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Focus Blast	Fighting	Special	120	70	5	May lower opponent's Special Defense.
+//	May lower opponent's Special Defense.
 public final class FocusBlast extends SpecialMove{
     public FocusBlast() {
         super(Type.FIGHTING, 120, 0.7);

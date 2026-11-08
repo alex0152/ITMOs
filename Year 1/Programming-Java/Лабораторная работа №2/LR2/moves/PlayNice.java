@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Play Nice	Normal	Status	—	—	20	Lowers opponent's Attack. Always hits.
+//	Lowers opponent's Attack. Always hits.
 public final class PlayNice extends StatusMove{
     public PlayNice() {
         super(Type.NORMAL, 0, 0);
