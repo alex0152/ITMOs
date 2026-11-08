@@ -1,0 +1,8 @@
+C:\Users\alekc\Desktop\ConsoleAppInf\bin\Debug\ConsoleAppInf.exe.config
+C:\Users\alekc\Desktop\ConsoleAppInf\bin\Debug\ConsoleAppInf.exe
+C:\Users\alekc\Desktop\ConsoleAppInf\bin\Debug\ConsoleAppInf.pdb
+C:\Users\alekc\Desktop\ConsoleAppInf\obj\Debug\ConsoleAppInf.csproj.AssemblyReference.cache
+C:\Users\alekc\Desktop\ConsoleAppInf\obj\Debug\ConsoleAppInf.csproj.CoreCompileInputs.cache
+C:\Users\alekc\Desktop\ConsoleAppInf\obj\Debug\ConsoleAppInf.exe
+C:\Users\alekc\Desktop\ConsoleAppInf\obj\Debug\ConsoleAppInf.pdb
+C:\Users\alekc\Desktop\ConsoleAppInf\obj\Debug\ConsoleAppInf.exe.config
