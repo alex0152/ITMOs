@@ -11,6 +11,9 @@ public final class PlayNice extends StatusMove {
 
     @Override public void applyOppEffects(Pokemon p) {
         p.setMod(Stat.ATTACK, -1);
+    }
+
+    @Override public void applySelfEffects(Pokemon p) {
         this.hits = 1;
     }
 
