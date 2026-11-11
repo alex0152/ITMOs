@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Attack. Always hits.
-public final class PlayNice extends StatusMove{
+public final class PlayNice extends StatusMove {
     public PlayNice() {
         int POWER = 0;
         double ACCURACY = 0;

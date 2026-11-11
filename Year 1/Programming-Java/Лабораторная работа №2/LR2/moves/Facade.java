@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	Power doubles if user is burned, poisoned, or paralyzed.
-public final class Facade extends PhisycalMove {
+public final class Facade extends PhysicalMove {
     public Facade() {
         int POWER = 70;
         double ACCURACY = 1.0;

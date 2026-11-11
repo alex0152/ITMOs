@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Speed.
-public final class RockTomb extends PhysicalMove{
+public final class RockTomb extends PhysicalMove {
     public RockTomb() {
         int POWER = 60;
         double ACCURACY = 0.95;

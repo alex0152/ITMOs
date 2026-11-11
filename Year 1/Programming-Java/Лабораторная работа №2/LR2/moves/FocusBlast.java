@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	May lower opponent's Special Defense.
-public final class FocusBlast extends SpecialMove{
+public final class FocusBlast extends SpecialMove {
     public FocusBlast() {
         int POWER = 120;
         double ACCURACY = 0.7;

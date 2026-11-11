@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Speed.
-public final class LowSweep extends PhysicalMove{
+public final class LowSweep extends PhysicalMove {
     public LowSweep() {
         int POWER = 65;
         double ACCURACY = 1.0;

@@ -2,7 +2,7 @@ package moves;
 
 import ru.ifmo.se.pokemon.*;
 //	Confuses opponent, but raises its Special Attack.
-public final class Flatter extends StatusMove{
+public final class Flatter extends StatusMove {
     public Flatter() {
         int POWER = 0;
         double ACCURACY = 1.0;
