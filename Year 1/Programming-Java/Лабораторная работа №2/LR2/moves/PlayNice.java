@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Attack. Always hits.
 public final class PlayNice extends StatusMove{
     public PlayNice() {
-        super(Type.NORMAL, 0, 0);
+        int POWER = 0;
+        double ACCURACY = 0;
+        super(Type.NORMAL, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

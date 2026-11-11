@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	May lower opponent's Special Defense.
 public final class Psychic extends SpecialMove{
     public Psychic() {
-        super(Type.PSYCHIC, 90, 1.0);
+        int POWER = 90;
+        double ACCURACY = 1.0;
+        super(Type.PSYCHIC, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

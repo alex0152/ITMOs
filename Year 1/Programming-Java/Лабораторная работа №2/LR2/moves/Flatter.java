@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	Confuses opponent, but raises its Special Attack.
 public final class Flatter extends StatusMove{
     public Flatter() {
-        super(Type.DARK, 0, 1.0);
+        int POWER = 0;
+        double ACCURACY = 1.0;
+        super(Type.DARK, POWER, ACCURACY);
     }
     
     @Override public void applyOppEffects(Pokemon p) {

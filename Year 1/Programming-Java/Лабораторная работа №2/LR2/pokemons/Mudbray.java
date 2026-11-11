@@ -7,7 +7,10 @@ public class Mudbray extends Pokemon{
     public Mudbray(String name, int level) {
         super(name, level);
         setType(Type.GROUND);
-        this.setStats(hp: 70, att: 100, def: 70, spAtt: 45, spDef: 55, speed: 45);
+        double HP = 70, ATTACK = 100, DEFENSE = 70, 
+            SPECIAL_ATTACK = 45, SPECIAL_DEFENSE = 55, SPEED = 45;
+        this.setStats(HP, ATTACK, DEFENSE, SPECIAL_ATTACK, 
+            SPECIAL_DEFENSE, SPEED);
         this.setMove(new RockTomb(), new LowSweep(), new DoubleKick());
     }
 }

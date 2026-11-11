@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	May paralyze opponent.
 public final class BodySlam extends PhisycalMove  {
     public BodySlam() {
-        super(Type.NORMAL, 85, 1.0);
+        int POWER = 85;
+        double ACCURACY = 1.0;
+        super(Type.NORMAL, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

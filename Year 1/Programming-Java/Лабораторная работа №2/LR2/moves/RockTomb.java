@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Speed.
 public final class RockTomb extends PhysicalMove{
     public RockTomb() {
-        super(Type.ROCK, 60, 0.95);
+        int POWER = 60;
+        double ACCURACY = 0.95;
+        super(Type.ROCK, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

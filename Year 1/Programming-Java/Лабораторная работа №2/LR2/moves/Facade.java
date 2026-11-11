@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	Power doubles if user is burned, poisoned, or paralyzed.
 public final class Facade extends PhisycalMove {
     public Facade() {
-        super(Type.NORMAL, 70, 1.0);
+        int POWER = 70;
+        double ACCURACY = 1.0;
+        super(Type.NORMAL, POWER, ACCURACY);
     }
 
     @Override public void applySelfEffects(Pokemon p) {

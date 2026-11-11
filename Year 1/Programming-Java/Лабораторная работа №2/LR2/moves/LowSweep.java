@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	Lowers opponent's Speed.
 public final class LowSweep extends PhysicalMove{
     public LowSweep() {
-        super(Type.FIGHTING, 65, 1.0);
+        int POWER = 65;
+        double ACCURACY = 1.0;
+        super(Type.FIGHTING, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	May poison the opponent.
 public final class PoisonJab extends PhysicalMove{
     public PoisonJab() {
-        super(Type.POISON, 80, 1.0);
+        int POWER = 80;
+        double ACCURACY = 1.0;
+        super(Type.POISON, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

@@ -4,7 +4,9 @@ import ru.ifmo.se.pokemon.*;
 //	May lower opponent's Special Defense.
 public final class FocusBlast extends SpecialMove{
     public FocusBlast() {
-        super(Type.FIGHTING, 120, 0.7);
+        int POWER = 120;
+        double ACCURACY = 0.7;
+        super(Type.FIGHTING, POWER, ACCURACY);
     }
 
     @Override public void applyOppEffects(Pokemon p) {

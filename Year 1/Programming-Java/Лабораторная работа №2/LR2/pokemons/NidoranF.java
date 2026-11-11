@@ -7,7 +7,10 @@ public class NidoranF extends Pokemon{
     public NidoranF(String name, int level) {
         super(name, level);
         setType(Type.POISON);
-        this.setStats(hp: 55, att: 47, def: 52, spAtt: 40, spDef: 40, speed: 41);
+        double HP = 55, ATTACK = 47, DEFENSE = 52, 
+            SPECIAL_ATTACK = 40, SPECIAL_DEFENSE = 40, SPEED = 41;
+        this.setStats(HP, ATTACK, DEFENSE, SPECIAL_ATTACK, 
+            SPECIAL_DEFENSE, SPEED);
         this.setMove(new Facade(), new PoisonJab());
     }
 }
