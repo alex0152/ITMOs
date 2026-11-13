@@ -1,7 +1,7 @@
 package moves;
 
 import ru.ifmo.se.pokemon.*;
-//Hydro Pump	Water	Special	110	80	5	
+// Don't have effects	
 public final class HydroPump extends SpecialMove {
     public HydroPump() {
         int POWER = 110;

@@ -5,19 +5,19 @@ import pokemons.*;
 
 public class Main {
     public static void main(String[] args) {
-        Battle b = new Battle();
-        b.addAlly(new Alomomola("Розовая рыбка", 65));
-        b.addAlly(new Mudbray("Конь", 47));
-        b.addAlly(new Mudsdale("Супер-конь", 52));
-        b.addAlly(new NidoranF("Морская свинка", 42));
-        b.addAlly(new Nidorina("Черепашка с ушами и шипами", 84));
-        b.addAlly(new Nidoqueen("Королева-динозаврик", 84));
-        b.addFoe(new Alomomola("Аломомола", 65));
-        b.addFoe(new Mudbray("Мадбрей", 47));
-        b.addFoe(new Mudsdale("Мадсдейл", 52));
-        b.addFoe(new NidoranF("Самка Нидоран", 42));
-        b.addFoe(new Nidorina("Нидорина", 84));
-        b.addFoe(new Nidoqueen("Нидо-королева", 84));
-        b.go();
+        Battle fight = new Battle();
+        fight.addAlly(new Alomomola("Розовая рыбка", 61));
+        fight.addAlly(new Mudbray("Конь", 47));
+        fight.addAlly(new Mudsdale("Супер-конь", 52));
+        fight.addAlly(new NidoranF("Морская свинка", 42));
+        fight.addAlly(new Nidorina("Черепашка с ушами и шипами", 84));
+        fight.addAlly(new Nidoqueen("Королева-динозаврик", 84));
+        fight.addFoe(new Alomomola("Аломомола", 61));
+        fight.addFoe(new Mudbray("Мадбрей", 47));
+        fight.addFoe(new Mudsdale("Мадсдейл", 52));
+        fight.addFoe(new NidoranF("Самка Нидоран", 42));
+        fight.addFoe(new Nidorina("Нидорина", 84));
+        fight.addFoe(new Nidoqueen("Нидо-королева", 84));
+        fight.go();
     }
 }
