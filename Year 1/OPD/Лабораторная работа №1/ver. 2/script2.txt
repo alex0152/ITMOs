@@ -1,2 +1,24 @@
 cd lab0
-chmod
+chmod a=x chinchou | chmod go+r chinchou | chmod uo+w chinchou
+chmod u=rwx chinchou/kabutops
+chmod a=r chichou/pawniard | chmod ug+w chichou/pawniard
+chmod 700 chinchou/meowth
+chmod 044 chinchou/lillipup
+chmod go=rw chingling
+chmod a=x mismagius | chmod ug+r mismagius | chmod g+w mismagius
+chmod a=x mismagius/grandbull | chmod u+w mismagius/granbull | chmod o+r mismagius/granbull
+chmod go=rw mismagius/mandibuzz
+chmod 317 mismagius/gigalith
+chmod a=rw mismagius/pansage | chmod o-w mismagius/pansage
+chmod u=rx mismagius/parasect
+chmod u=rwx politoed
+chmod 444 politoed/alakazam
+chmod ug=wx politoed/flygon
+chmod a=r politoed/tyranitar | chmod u+w politoed/tyranitar
+chmod 571 politoed/aipom
+chmod 404 politoed/kabuto
+chmod 511 politoed/marill
+chmod ug=r skitty
+chmod a=r toxicroak | chmod ug+w toxicroak
+
+

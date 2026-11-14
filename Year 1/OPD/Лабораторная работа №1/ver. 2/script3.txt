@@ -1,0 +1,8 @@
+cd lab0
+cp -r mismagius chinchou/kabutops
+ln -s chinchou ./Copy_80
+ln -s chingling politoed/kabutochingling
+cp chingling chinchou/meowth
+ln chingling mismagius/mandibuzzchingling
+cat skitty > politoed/alakazamskitty
+cat politoed/tyranitar politoed/alakazam > chingling_67
