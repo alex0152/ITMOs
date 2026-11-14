@@ -1,0 +1,2 @@
+cd lab0
+chmod

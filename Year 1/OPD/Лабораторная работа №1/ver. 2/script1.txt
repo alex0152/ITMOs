@@ -1,0 +1,25 @@
+mkdir lab0
+cd lab0
+mkdir chinchou mismagius politoed
+cd chinchou
+mkdir kabutops
+echo -e "Способности = Scratch Leer Fury Cutter\nTorment Faint Attack Scary Face Metal\nClaw Slash Assurance Metal Sound Embargo\nIron Defense Night Slash Iron Head\nSwords Dance Guillotine" > pawniard
+mkdir meowth
+echo -e "Способности = Leer Tackle Odor Sleuth\nBite Helping Hand Take Down Work Up\nCrunch Roar Retaliate Reversal Last\nResort Giga Impact" > lillipup
+cd ../mismagius
+mkdir granbull
+echo "Тип диеты = Carnivore" > mandibuzz
+mkdir gigalith
+echo -e "Возможности = Overland=6 Surface=4\nJump=4 Power=2 Intelligence=4" > pansage
+mkdir parasect
+cd ../politoed
+echo -e "Возможности = Overland=7 Surface=3\nJump=2 Power=2 Intelligence=7 Aura=0\nTelekinetic=0 Telepath=0" > alakazam
+mkdir flygon
+echo "weigth=445.3 height=79.0 atk=13 def=11" > tyranitar
+mkdir aipom
+echo "Тип покемона = ROCK WATER" > kabuto
+mkdir marill
+cd ..
+echo -e "Возможности = Overland=2 Surface=1 Sky=4\nJump=2 Power1=0 Intelligence=4\nTelepath=0" > chingling
+echo -e "Ходы = Body Slam Covet Defense Curl Heal\nBell Helping Hand Icy Wind Iron Tail\nLast Resort Mud-Slap Rollout Sleep Talk\nSnore Sucker Punch Swift Uproar Water\nPulse Zen Headbutt" > skitty
+echo -e "Ходы = Bounce Dark Pulse Drain Punch\nDual Chop Focus Punch Foul Play Fury\nCutter Gunk Shot Helping Hand Ice Punch\nIcy Wind Knock Off Low Kick Magic Coat\nMud-Slap Rock Climb Role Play Sleep Talk\nSnatch Snore Spite Sucker Punch Super\nFang Thunderpunch Vacuum Wave" > toxicroak
